@@ -1,0 +1,20 @@
+[package]
+name = "r2d2-lapin"
+version = "0.1.0"
+authors = ["Adrian Benavides <adri.benavides312@gmail.com>"]
+edition = "2018"
+description = "Lapin support for the r2d2 connection pool"
+repository = "https://github.com/adrianbenavides/r2d2-lapin"
+keywords = ["pool", "r2d2", "lapin", "amqp"]
+license = "MIT"
+
+[dependencies]
+futures-executor = "0.3.5"
+lapin = "1.2.7"
+r2d2 = "0.8.9"
+
+[dev-dependencies]
+dotenv = "0.15.0"
+lazy_static = "1.4.0"
+tokio = { version = "0.2.22", features = ["rt-threaded", "macros", "time"] }
+tokio-amqp = "0.1.3"
