@@ -4,6 +4,8 @@
 [![audit](https://github.com/adrianbenavides/r2d2-lapin/workflows/Audit/badge.svg)](https://github.com/adrianbenavides/r2d2-lapin/actions)
 [![crates.io-license](https://img.shields.io/crates/l/r2d2-lapin)](LICENSE)
 
+NOTE: This project has been archived. Consider using the [bb8](https://github.com/adrianbenavides/bb8-lapin) or [mobc](https://github.com/zupzup/mobc-lapin) connection managers.
+
 [Lapin](https://github.com/CleverCloud/lapin) support for the [r2d2](https://github.com/sfackler/r2d2) connection pool.
 
 ## Usage
